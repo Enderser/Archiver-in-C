@@ -14,8 +14,8 @@ void print_usage(const char* program_name) {
 }
 
 int main(int argc, char** argv) {
-    argc = 5;
-    argv[1] = "list"; argv[2] = "archive"; argv[3] = "out.txt"; argv[4] = "inp_rez.txt";
+    //argc = 5;
+    //argv[1] = "create"; argv[2] = "archive"; argv[3] = ""; argv[4] = "";
     if (argc < 3) {
         print_usage(argv[0]);
         return 1;
